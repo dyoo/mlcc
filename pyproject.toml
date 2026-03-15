@@ -10,6 +10,8 @@ dependencies = [
     "tensorflow>=2.16.2",
     "tensorflow-macos>=2.16.2",
     "tensorflow-metal>=1.2.0",
+    "torch>=2.10.0",
+    "torchvision>=0.25.0",
 ]
 
 [dependency-groups]
