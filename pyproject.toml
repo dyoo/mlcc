@@ -1,0 +1,18 @@
+[project]
+name = "my-tensorflow-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.8",
+    "numpy>=1.26.4",
+    "tensorflow>=2.16.2",
+    "tensorflow-macos>=2.16.2",
+    "tensorflow-metal>=1.2.0",
+]
+
+[dependency-groups]
+dev = [
+    "jupyterlab>=4.5.6",
+]
